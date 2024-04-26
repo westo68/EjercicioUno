@@ -1,8 +1,14 @@
-lista = [3, 6, 1, 5, 7, 2, 8]
 
-def ordenar_lista(lista):
-    for i in lista:
-        lista.sort()
-        return lista
+def suma(n1,n2,n3):
+    resultado=n1+n2+n3
+    return(resultado)
 
-print(ordenar_lista(lista))
+lista=[]
+
+for i in range(1,3):
+    n1 = int(input("Var 1"))
+    n2 = int(input("Var 2"))
+    n3 = int(input("Var 3"))
+    lista.append(suma(n1,n2,n3))
+
+print(f"{lista}")
